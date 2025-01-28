@@ -24,6 +24,10 @@ body {
     text-align: center;
 }
 
+h1 {
+    margin-bottom: 20px;
+}
+
 .input-group {
     display: flex;
     gap: 10px;
@@ -67,4 +71,8 @@ button:hover {
 
 .user-info a:hover {
     text-decoration: underline;
+}
+
+.user-info p {
+    margin: 5px 0;
 }
