@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Foydalanuvchi Ma'lumotlari</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>GitHub Foydalanuvchi Ma'lumotlari</h1>
+        <div class="input-group">
+            <input type="text" id="username" placeholder="GitHub nikini kiriting">
+            <button type="submit" onclick="fetchUserInfo()">Qidirish</button>
+        </div>
+        <div id="error" class="error"></div>
+        <div id="user-info" class="user-info"></div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
